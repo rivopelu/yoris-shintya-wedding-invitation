@@ -14,7 +14,7 @@ export function OnboardPopup(props: IProps) {
   function component() {
     return (
       <div
-        className={`w-screen  h-[100vh]  bg-bottom bg-cover bg-red-700`}
+        className={`w-screen  h-[100vh]  bg-bottom bg-cover`}
         style={{
           backgroundImage: `url(${ASSETS.COVER})`,
         }}
