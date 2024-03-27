@@ -4,6 +4,10 @@
   font-style: normal;
 }
 
+html, body {
+  background-color: black;
+
+}
 body {
   font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
@@ -14,4 +18,8 @@ body {
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-style: normal;
+}
+
+.font-nunito {
+  font-family: "Nunito Sans", sans-serif;
 }

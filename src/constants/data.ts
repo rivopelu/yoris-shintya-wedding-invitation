@@ -1,4 +1,4 @@
 export const DATA_CONSTANTS = {
-  GIRL_NICK_NAME: "Shintya",
-  BOY_NICK_NAME: "Yoris",
+  BRIDE_NICK_NAME: "Shintya",
+  GROOM_NICK_NAME: "Yoris",
 }
