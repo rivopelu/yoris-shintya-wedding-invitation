@@ -27,14 +27,12 @@ function App() {
     >
       <OnboardPopup onClickOpen={onclickOpen} open={open} />
 
-      {!open && (
-        <>
-          <Home />
-          <InformationPage />
-          <DatePage />
-          <LocationPage />
-        </>
-      )}
+      <>
+        <Home />
+        <InformationPage />
+        <DatePage />
+        <LocationPage />
+      </>
     </section>
   );
 }
