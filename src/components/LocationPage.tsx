@@ -60,6 +60,16 @@ export function LocationPage() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+            <button
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos="fade-up"
+              className={
+                "border w-fit mx-auto border-slate-800 py-2 px-6 bg-black/10 font-semibold uppercase hover:bg-black/20 active:bg-black/10 duration-300"
+              }
+            >
+              Open Directions
+            </button>
           </div>
 
           <div
@@ -114,6 +124,18 @@ export function LocationPage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+            </div>
+            <div>
+              <button
+                data-aos-delay="300"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+                className={
+                  "border border-slate-800 py-2 px-6 bg-black/10 font-semibold uppercase hover:bg-black/20 active:bg-black/10 duration-300"
+                }
+              >
+                Open Directions
+              </button>
             </div>
           </div>
         </div>
