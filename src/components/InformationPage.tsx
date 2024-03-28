@@ -117,7 +117,7 @@ export function InformationPage() {
   }
 
   return (
-    <div className={" min-h-[100vh] my-10 mb-20"}>
+    <div className={" min-h-[100vh] my-10 "}>
       <Container>
         <div className={"text-center text-slate-700"}>
           <div className={"py-10 lg:py-32"}>

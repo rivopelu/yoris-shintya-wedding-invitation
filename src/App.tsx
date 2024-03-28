@@ -8,7 +8,7 @@ import { DatePage } from "./components/DatePage.tsx";
 import { LocationPage } from "./components/LocationPage.tsx";
 
 function App() {
-  const [open, setOpen] = useState<boolean>(true);
+  const [open, setOpen] = useState<boolean>(false);
   useEffect(() => {
     AOS.init({
       mirror: true,
