@@ -4,7 +4,6 @@ import { CrudService } from "../service/CrudService.ts";
 
 import { v4 as uuidv4 } from "uuid";
 import firebase from "firebase/app";
-import * as console from "console";
 
 function CommentnPage() {
   const uuid = uuidv4();
