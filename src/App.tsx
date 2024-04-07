@@ -6,9 +6,12 @@ import AOS from "aos";
 import { ASSETS } from "./assets/assets.ts";
 import { DatePage } from "./components/DatePage.tsx";
 import { LocationPage } from "./components/LocationPage.tsx";
+import { GiftPage } from "./components/GiftPage.tsx";
+import MomentPage from "./components/MomentPage.tsx";
+import CommentnPage from "./components/CommentnPage.tsx";
 
 function App() {
-  const [open, setOpen] = useState<boolean>(false);
+  const [open, setOpen] = useState<boolean>(true);
   useEffect(() => {
     AOS.init({
       mirror: true,
@@ -32,6 +35,9 @@ function App() {
         <InformationPage />
         <DatePage />
         <LocationPage />
+        <MomentPage />
+        <GiftPage />
+        <CommentnPage/>
       </>
     </section>
   );

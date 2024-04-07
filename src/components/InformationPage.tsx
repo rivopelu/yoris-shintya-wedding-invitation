@@ -93,7 +93,7 @@ export function InformationPage() {
             data-aos="fade-up"
             className={"font-nunito"}
           >
-            YAKOBUS MOLODIANG
+            Alm. YAKOBUS MOLODIANG
           </div>
           <div
             data-aos-delay="0"

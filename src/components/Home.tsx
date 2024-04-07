@@ -38,7 +38,7 @@ export function Home() {
             data-aos-duration="1000"
             data-aos="fade-up"
           >
-            Friday, 19 April 2024
+            Friday, 19th April 2024
           </div>
         </div>
         <div
