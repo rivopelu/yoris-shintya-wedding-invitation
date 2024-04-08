@@ -1,18 +1,18 @@
-import { OnboardPopup } from './components/OnboardPopup.tsx';
+import { Pause, PlayArrow } from '@mui/icons-material';
+import { IconButton } from '@mui/material';
+import AOS from 'aos';
+import { useEffect, useState } from 'react';
+import { ASSETS } from './assets/assets.ts';
+import BottomContentPage from './components/BottomContentPage.tsx';
+import CommentnPage from './components/CommentnPage.tsx';
+import { DatePage } from './components/DatePage.tsx';
+import FooterComponent from './components/FooterComponent.tsx';
+import { GiftPage } from './components/GiftPage.tsx';
 import { Home } from './components/Home.tsx';
 import { InformationPage } from './components/InformationPage.tsx';
-import { useEffect, useState } from 'react';
-import AOS from 'aos';
-import { ASSETS } from './assets/assets.ts';
-import { DatePage } from './components/DatePage.tsx';
 import { LocationPage } from './components/LocationPage.tsx';
-import { GiftPage } from './components/GiftPage.tsx';
 import MomentPage from './components/MomentPage.tsx';
-import CommentnPage from './components/CommentnPage.tsx';
-import BottomContentPage from './components/BottomContentPage.tsx';
-import FooterComponent from './components/FooterComponent.tsx';
-import { IconButton } from '@mui/material';
-import { Pause, PlayArrow } from '@mui/icons-material';
+import { OnboardPopup } from './components/OnboardPopup.tsx';
 
 function App() {
   const audioUrl = '/assets/song.mp3';
@@ -35,15 +35,13 @@ function App() {
   }
 
   function onClickPlayPause() {
-    setPlayAudio((e) => {
-      if (e) {
-        audio.pause();
-        setPlayAudio(false);
-      } else {
-        audio.play();
-        setPlayAudio(true);
-      }
-    });
+    if (playAudio) {
+      audio.pause();
+      setPlayAudio(false);
+    } else {
+      audio.play();
+      setPlayAudio(true);
+    }
   }
   return (
     <>
