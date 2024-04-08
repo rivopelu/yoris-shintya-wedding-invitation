@@ -3,12 +3,7 @@ import { ASSETS } from '../assets/assets';
 export default function MomentPage() {
   return (
     <div className="py-14  backdrop-blur-[2px]">
-      <h1
-        data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos="fade-up"
-        className="text-6xl text-slate-600 text-center mb-6 tangerine-regular"
-      >
+      <h1 data-aos-delay="0" data-aos-duration="1000" data-aos="fade-up" className="text-6xl  text-center mb-6 tangerine-regular">
         Our Moment
       </h1>
       <div className="flex items-center gap-3 overflow-x-auto py-10">

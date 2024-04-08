@@ -7,7 +7,7 @@ export interface ICoordinate {
 }
 export function LocationPage() {
   return (
-    <div className={'min-h-[300px] py-32 text-slate-800'}>
+    <div className={'min-h-[300px] py-32 '}>
       <Container>
         <div className={'grid lg:grid-cols-2 gap-5'}>
           <div className={'font-nunito text-center grid gap-10'}>
