@@ -80,16 +80,18 @@ export function DatePage() {
               Friday, 19th April 2024
             </div>
             <div>
-              <AddToCalendarButton
-                name="Yoris and Shintya's wedding day"
-                options={['Apple', 'Google']}
-                location="Bitung City"
-                startDate="2024-04-19"
-                endDate="2024-04-19"
-                startTime="14:00"
-                endTime="20:00"
-                timeZone="Asia/Makassar"
-              ></AddToCalendarButton>
+              <div data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+                <AddToCalendarButton
+                  name="Yoris and Shintya's wedding day"
+                  options={['Apple', 'Google']}
+                  location="Bitung City"
+                  startDate="2024-04-19"
+                  endDate="2024-04-19"
+                  startTime="14:00"
+                  endTime="20:00"
+                  timeZone="Asia/Makassar"
+                ></AddToCalendarButton>
+              </div>
             </div>
           </div>
         </Container>
