@@ -1,8 +1,7 @@
-import { ASSETS } from '../assets/assets.ts';
 import { Container } from '@mui/material';
-import { CalendarMonth } from '@mui/icons-material';
-import { useEffect, useState } from 'react';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import { useEffect, useState } from 'react';
+import { ASSETS } from '../assets/assets.ts';
 
 export function DatePage() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
