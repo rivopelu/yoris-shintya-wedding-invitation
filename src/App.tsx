@@ -13,19 +13,9 @@ import CommentnPage from './components/CommentnPage.tsx';
 function App() {
   const audioUrl = '/assets/song.mp3';
 
-  const [isPlaying, setIsPlaying] = useState(false);
   const [open, setOpen] = useState<boolean>(true);
 
   const audio = new Audio(audioUrl);
-
-  const handleClick = () => {
-    if (isPlaying) {
-      audio.pause();
-    } else {
-      audio.play();
-    }
-    setIsPlaying(!isPlaying);
-  };
 
   useEffect(() => {
     AOS.init({

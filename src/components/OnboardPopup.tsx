@@ -5,7 +5,6 @@ import { Box, Fade, Modal } from '@mui/material';
 import { useEffect } from 'react';
 
 export function OnboardPopup(props: IProps) {
-  const location = useLocation();
   const searchParams = new URLSearchParams(useLocation().search);
   const to = searchParams.get('to');
   const style = {
