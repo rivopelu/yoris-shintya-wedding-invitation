@@ -16,7 +16,7 @@ export function LocationPage() {
                 Marriage Contract
               </h1>
               <div data-aos-delay="0" data-aos-duration="1000" data-aos="fade-up" className={'lg:text-2xl'}>
-                Friday, April 19th, 2021
+                Friday, April 19th, 2024
               </div>
               <div data-aos-delay="0" data-aos-duration="1000" data-aos="fade-up">
                 at 14:00
@@ -61,7 +61,7 @@ export function LocationPage() {
                 RECEPTION
               </h1>
               <div data-aos-delay="300" data-aos-duration="1000" data-aos="fade-up" className={'lg:text-2xl'}>
-                Friday, April 19th, 2021
+                Friday, April 19th, 2024
               </div>
               <div data-aos-delay="300" data-aos-duration="1000" data-aos="fade-up">
                 at 17:00
