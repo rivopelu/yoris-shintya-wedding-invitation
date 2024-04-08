@@ -77,7 +77,7 @@ function CommentnPage() {
                 </div>
               </Button>
             </div>
-            <div className={'mt-10 grid gap-4 max-h-[300px] overflow-y-auto'}>
+            <div className={'mt-10 grid gap-4  overflow-y-auto border border-t pt-4 border-t-slate-600/10 max-h-[600px]'}>
               {data.map((item, i) => (
                 <div key={i} className={'border border-slate-400  p-4 rounded-md '}>
                   <div className={'flex items-center gap-2'}>

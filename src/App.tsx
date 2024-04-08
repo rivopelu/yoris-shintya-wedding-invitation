@@ -9,6 +9,8 @@ import { LocationPage } from './components/LocationPage.tsx';
 import { GiftPage } from './components/GiftPage.tsx';
 import MomentPage from './components/MomentPage.tsx';
 import CommentnPage from './components/CommentnPage.tsx';
+import BottomContentPage from './components/BottomContentPage.tsx';
+import FooterComponent from './components/FooterComponent.tsx';
 
 function App() {
   const audioUrl = '/assets/song.mp3';
@@ -43,7 +45,9 @@ function App() {
           <LocationPage />
           <MomentPage />
           <GiftPage />
+          <BottomContentPage />
           <CommentnPage />
+          <FooterComponent />
         </>
       </section>
     </>
