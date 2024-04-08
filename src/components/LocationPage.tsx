@@ -93,7 +93,7 @@ export function LocationPage() {
               >
                 Friday, April 19th, 2021
               </div>
-              <div
+              <div 
                 data-aos-delay="300"
               data-aos-duration="1000"
                 data-aos="fade-up"
