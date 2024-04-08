@@ -16,6 +16,8 @@
     "@mui/material": "^5.15.14",
     "@react-google-maps/api": "^2.19.3",
     "@types/firebase": "^3.2.1",
+    "add-to-calendar-button": "^2.6.10",
+    "add-to-calendar-button-react": "^2.6.10",
     "aos": "^3.0.0-beta.6",
     "firebase": "^8.10.0",
     "prettier": "^3.2.5",
