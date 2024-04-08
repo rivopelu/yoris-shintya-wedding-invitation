@@ -16,7 +16,6 @@ function App() {
   const audioUrl = '/assets/song.mp3';
 
   const [open, setOpen] = useState<boolean>(true);
-  const [playAudio, setPlayAudio] = useState<boolean>(false);
 
   const audio = new Audio(audioUrl);
 
@@ -28,19 +27,9 @@ function App() {
 
   function onclickOpen() {
     audio.play();
-    setPlayAudio(true);
     setOpen(false);
   }
 
-  function onClickPlayPause() {
-    if (playAudio) {
-      audio.pause();
-      setPlayAudio(false);
-    } else {
-      audio.play();
-      setPlayAudio(true);
-    }
-  }
   return (
     <>
       <section
