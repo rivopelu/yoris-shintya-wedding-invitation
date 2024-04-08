@@ -1,5 +1,3 @@
-import { Pause, PlayArrow } from '@mui/icons-material';
-import { IconButton } from '@mui/material';
 import AOS from 'aos';
 import { useEffect, useState } from 'react';
 import { ASSETS } from './assets/assets.ts';
@@ -51,9 +49,9 @@ function App() {
           backgroundImage: `url(${ASSETS.BG})`,
         }}
       >
-        <div className="fixed bg-slate-300 bottom-3 right-3 rounded-full">
+        {/* <div className="fixed bg-slate-300 bottom-3 right-3 rounded-full">
           <IconButton onClick={onClickPlayPause}>{playAudio ? <Pause /> : <PlayArrow />}</IconButton>
-        </div>
+        </div> */}
         <OnboardPopup onClickOpen={onclickOpen} open={open} />
         <>
           <Home />
