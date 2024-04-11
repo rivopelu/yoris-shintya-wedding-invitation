@@ -13,7 +13,7 @@ export default function MomentPage() {
             data-aos-duration="1000"
             data-aos={i % 2 === 0 ? 'fade-down' : 'fade-up'}
             className={`lg:h-[400px] h-[230px] rounded-md border-2 shadow-lg shadow-slate-500/30 border-white ${i % 2 === 0 ? 'mb-24' : 'mt-5'}`}
-            alt={item}
+            alt={i === 0 ? 'shintya and yoris wedding' : item}
             src={item}
             key={i}
           />
