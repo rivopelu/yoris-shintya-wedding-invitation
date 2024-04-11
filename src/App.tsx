@@ -11,6 +11,7 @@ import { InformationPage } from './components/InformationPage.tsx';
 import { LocationPage } from './components/LocationPage.tsx';
 import MomentPage from './components/MomentPage.tsx';
 import { OnboardPopup } from './components/OnboardPopup.tsx';
+import 'swiper/css';
 
 function App() {
   const audioUrl = '/assets/song.mp3';
