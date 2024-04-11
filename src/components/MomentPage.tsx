@@ -1,8 +1,8 @@
-import { Button, Container, IconButton } from '@mui/material';
-import { ASSETS } from '../assets/assets';
-import { SwiperSlide, Swiper } from 'swiper/react';
-import { useRef } from 'react';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
+import { Button, Container } from '@mui/material';
+import { useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { ASSETS } from '../assets/assets';
 
 export default function MomentPage() {
   const swiperRef: any = useRef();
