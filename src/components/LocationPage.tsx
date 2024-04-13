@@ -67,7 +67,7 @@ export function LocationPage() {
                 at 17:00
               </div>
               <div data-aos-delay="300" data-aos-duration="1000" data-aos="fade-up">
-                Manembo nambo, Lorong depan Alfamart Manembo nembo bawah
+                Manembo nembo, Lorong depan Alfamart Manembo nembo bawah
               </div>
             </div>
             <div
